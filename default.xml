@@ -1078,4 +1078,7 @@
   <include name="manifests/remove.xml"/>
   <include name="manifests/pixeldust.xml"/>
 
+  <!-- Lineage snippets -->
+  <include name="manifests/lineage.xml"/>
+
 </manifest>
