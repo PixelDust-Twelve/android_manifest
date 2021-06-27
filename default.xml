@@ -2,11 +2,13 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-s-beta-2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8"
+           sync-f="true"
+           sync-c="true" />
 
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
 
@@ -1071,4 +1073,9 @@
 
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- Pixeldust additions -->
+  <include name="manifests/remove.xml"/>
+  <include name="manifests/pixeldust.xml"/>
+
 </manifest>
