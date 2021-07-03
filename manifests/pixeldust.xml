@@ -19,8 +19,19 @@
   <project path="manifest" name="manifest" remote="pd12" />
 
   <!-- Build -->
-  <project path="build/make" name="android_build" remote="pd12" />
-  <project path="build/soong" name="android_build_soong" remote="pd12" />
+  <project path="build/make" name="android_build" remote="pd12" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="android_build_soong" remote="pd12" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="libcore" name="android_libcore" remote="pd12" />
 
   <!-- External -->
