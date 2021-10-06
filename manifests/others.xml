@@ -120,8 +120,9 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" revision="lineage-18.1" remote="lineage" />
 
   <!-- LineageOS additions -->
-  <project path="development" name="android_development" remote="lineage" />
+  <!--project path="development" name="android_development" remote="lineage" /-->
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <!--project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" /-->
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="lineage" />

@@ -11,13 +11,13 @@
            fetch="https://github.com/PixelDust-Eleven"
            revision="refs/heads/11" />
 
-  <remote  name="pd-next"
+  <remote  name="pd12"
            fetch="https://github.com/PixelDust-next"
            revision="refs/heads/12" />
 
   <remote  name="pdd"
            fetch="https://github.com/PixelDust-Devices"
-           revision="refs/heads/11" />
+           revision="refs/heads/12" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
