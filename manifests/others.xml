@@ -12,6 +12,10 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-18.0" />
 
+  <remote name="proton"
+          fetch="https://github.com/ProtonAOSP"
+          revision="sc" />
+
   <!-- Prebuilts -->
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="lineage17.0" clone-depth="1" />
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage18.0" clone-depth="1" />
@@ -132,5 +136,38 @@
 
   <!-- System Repos -->
   <project path="system/libufdt" name="android_system_libufdt" remote="lineage" />
+
+  <!-- ProtonAOSP -->
+  <project name="android_libcore" path="libcore" remote="proton" groups="proton" />
+  <project name="android_device_common" path="device/common" remote="proton" groups="proton" />
+  <project name="android_art" path="art" remote="proton" groups="proton" />
+  <project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="proton" groups="proton" />
+  <project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="proton" groups="proton" />
+  <project name="android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="proton" groups="proton" />
+  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="proton" groups="proton" />
+  <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="proton" groups="proton" />
+  <project name="android_frameworks_native" path="frameworks/native" remote="proton" groups="proton" />
+  <project name="android_external_jemalloc_new" path="external/jemalloc_new" remote="proton" groups="proton" />
+  <project name="android_packages_modules_Permission" path="packages/modules/Permission" remote="proton" groups="proton" />
+  <project name="android_packages_modules_Wifi" path="packages/modules/Wifi" remote="proton" groups="proton" />
+  <project name="android_external_openssh" path="external/openssh" remote="proton" groups="proton" />
+  <project name="android_system_memory_lmkd" path="system/memory/lmkd" remote="proton" groups="proton" />
+  <project name="android_system_sepolicy" path="system/sepolicy" remote="proton" groups="proton" />
+
+  <project name="android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="proton" groups="proton" />
+  <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="proton" groups="proton" />
+  <project name="android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="proton" groups="proton" />
+  <project name="android_external_htop" path="external/htop" remote="proton" groups="proton" />
+  <project name="android_external_p7zip" path="external/p7zip" remote="proton" groups="proton" />
+  <project name="android_external_bash" path="external/bash" remote="proton" groups="proton" />
+  <project name="android_external_nano" path="external/nano" remote="proton" groups="proton" />
+  <project name="android_external_pigz" path="external/pigz" remote="proton" groups="proton" />
+  <project name="android_external_vim" path="external/vim" remote="proton" groups="proton" />
+  <project name="android_external_zip" path="external/zip" remote="proton" groups="proton" />
+  <project name="android_external_rsync" path="external/rsync" remote="proton" groups="proton" />
+  <project name="android_external_colorkt" path="external/colorkt" remote="proton" groups="proton" />
+  <project name="android_tools_extract-utils" path="tools/extract-utils" remote="proton" groups="proton" />
+  <project name="android_external_themelib" path="external/themelib" remote="proton" groups="proton" />
+  <project name="android_external_zlib-ng" path="external/zlib-ng" remote="proton" groups="proton" />
 
 </manifest>
