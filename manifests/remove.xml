@@ -60,10 +60,13 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <!--remove-project name="platform/development" /-->
+  <remove-project name="platform/external/google-fonts/cutive-mono" />
   <remove-project name="platform/external/jemalloc_new" />
-  <remove-project name="platform/external/selinux" />
-  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/noto-fonts" />
   <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/roboto-fonts" />
+  <remove-project name="platform/external/selinux" />
+  <!--remove-project name="platform/external/tinycompress" /-->
   <remove-project name="platform/external/zlib" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
