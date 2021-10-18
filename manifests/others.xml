@@ -38,8 +38,8 @@
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" remote="lineage" />
     <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
-    <!--<linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" remote="lineage" />-->
-    <!--<linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" remote="lineage" />-->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" remote="lineage" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" remote="lineage" />
     <!-- add guards for CAF repositories -->
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" remote="lineage" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" remote="lineage" />
@@ -124,7 +124,7 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" revision="lineage-18.1" remote="lineage" />
 
   <!-- LineageOS additions -->
-  <project path="development" name="android_development" remote="lineage" />
+  <!--project path="development" name="android_development" remote="lineage" /-->
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <!--project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" /-->
@@ -169,5 +169,9 @@
   <project name="android_tools_extract-utils" path="tools/extract-utils" remote="proton" groups="proton" />
   <project name="android_external_themelib" path="external/themelib" remote="proton" groups="proton" />
   <project name="android_external_zlib-ng" path="external/zlib-ng" remote="proton" groups="proton" />
+
+  <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
+  <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
+  <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="proton" groups="proton" />
 
 </manifest>
