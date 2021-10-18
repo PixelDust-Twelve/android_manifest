@@ -49,8 +49,8 @@
 
   <!-- Vendor -->
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pd12" >
-    <copyfile src="build.sh" dest="rom-build.sh" />
-    <linkfile src="tools/merge-aosp.sh" dest="merge-aosp.sh" />
+    <copyfile src="build/tools/build.sh" dest="rom-build.sh" />
+    <linkfile src="build/tools/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
 
 </manifest>
