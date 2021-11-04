@@ -47,6 +47,8 @@
 
   <!-- Packages -->
   <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="pd12" />
+  <project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="pd12" />
+  <project name="android_packages_modules_Permission" path="packages/modules/Permission" remote="pd12" />
   <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="pd12" />
 
   <!-- Vendor -->
