@@ -42,6 +42,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pd12" />
 
   <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="pd12" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pd12" />
 
   <!-- Packages -->
