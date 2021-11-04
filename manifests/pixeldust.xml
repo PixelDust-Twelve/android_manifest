@@ -18,6 +18,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="platform_testing" name="android_platform_testing" remote="pd12" />
 
   <!-- Recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="pd12" />
