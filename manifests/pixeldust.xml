@@ -48,16 +48,18 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="pd12" />
 
   <!-- Packages -->
-  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="pd12" />
-  <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="pd12" />
-  <project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="pd12" />
-  <project name="android_packages_modules_Permission" path="packages/modules/Permission" remote="pd12" />
-  <project name="android_packages_services_Telephony" path="packages/services/Telephony" remote="pd12" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pd12" />
+  <project path="packages/apps/PixelDustSettings" name="android_packages_apps_PixelDustSettings" remote="pd12" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="pd12" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pd12" />
+  <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="pd12" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pd12" />
 
   <!-- Vendor -->
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pd12" >
     <copyfile src="build/tools/build.sh" dest="rom-build.sh" />
     <linkfile src="build/tools/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
+  <project path="vendor/support" name="android_vendor_support" remote="pd12" />
 
 </manifest>
