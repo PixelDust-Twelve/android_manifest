@@ -61,5 +61,6 @@
     <linkfile src="build/tools/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/support" name="android_vendor_support" remote="pd12" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="pd12" />
 
 </manifest>
