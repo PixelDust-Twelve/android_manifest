@@ -12,7 +12,7 @@
            revision="refs/heads/11" />
 
   <remote  name="pd12"
-           fetch="https://github.com/PixelDust-next"
+           fetch="https://github.com/PixelDust-Twelve"
            revision="refs/heads/12" />
 
   <remote  name="pdd"
