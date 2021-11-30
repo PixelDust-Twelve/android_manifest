@@ -43,6 +43,7 @@
 
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pd12" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pd12" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="pd12" />
