@@ -1,3 +1,4 @@
+![PixelDust Project](https://github.com/pixeldust-project-caf/manifest/raw/saltedcaramel/PixelDust_Header.png)
 # PixelDust Project Snow Cone #
 
 ## Setting up your machine ##
@@ -41,7 +42,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/PixelDust-next/manifest -b 12
+$ repo init -u https://github.com/PixelDust-Twelve/android_manifest -b 12
 ```
 
 ### Downloading the source tree ###
@@ -69,7 +70,7 @@ a large change that spans across multiple projects.
 ```bash
 # Specify one or more projects by either name or path
 
-# For example, enter PixelDust-next/android_frameworks_base or
+# For example, enter PixelDust-Twelve/android_frameworks_base or
 # frameworks/base to sync the frameworks/base repository
 
 $ repo sync PROJECT -j$(nproc --all) --force-sync --no-tags --no-clone-bundle
