@@ -99,4 +99,5 @@
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
 </manifest>
