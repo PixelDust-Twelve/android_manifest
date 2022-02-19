@@ -48,6 +48,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="pd12" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pd12" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="pd12" />
 
   <!-- Packages -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pd12" />
