@@ -7,10 +7,6 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
-  <remote  name="pd11"
-           fetch="https://github.com/PixelDust-Eleven"
-           revision="refs/heads/11" />
-
   <remote  name="pd12"
            fetch="https://github.com/PixelDust-Twelve"
            revision="refs/heads/12" />
