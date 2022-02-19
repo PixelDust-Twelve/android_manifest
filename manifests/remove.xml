@@ -62,6 +62,7 @@
   <!--remove-project name="platform/development" /-->
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/scudo" />
   <remove-project name="platform/external/selinux" />
   <!--remove-project name="platform/external/tinycompress" /-->
   <remove-project name="platform/external/zlib" />
@@ -87,6 +88,7 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/platform_testing" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
