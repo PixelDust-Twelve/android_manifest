@@ -57,6 +57,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pd12" />
 
   <!-- Vendor -->
+  <project path="vendor/lawnicons" name="android_vendor_lawnicons" remote="pd12" />
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pd12" >
     <copyfile src="build/tools/build.sh" dest="rom-build.sh" />
     <linkfile src="build/tools/merge-aosp.sh" dest="merge-aosp.sh" />
