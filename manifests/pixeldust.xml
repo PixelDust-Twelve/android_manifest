@@ -62,5 +62,6 @@
   </project>
   <project path="vendor/support" name="android_vendor_support" remote="pd12" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="pd12" />
+  <project path="vendor/pixelgapps" name="android_vendor_pixelgapps" remote="pdgms" />
 
 </manifest>

@@ -15,6 +15,10 @@
            fetch="https://github.com/PixelDust-Devices"
            revision="refs/heads/12" />
 
+  <remote  name="pdgms"
+           fetch="https://gitlab.com/pixeldust-vendor"
+           revision="refs/heads/12" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
