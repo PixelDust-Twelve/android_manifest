@@ -5,6 +5,8 @@
   <project path="manifest" name="android_manifest" remote="pd12" />
 
   <!-- Build -->
+  <project path="art" name="android_art" remote="pd12" />
+  <project path="bionic" name="android_bionic" remote="pd12" />
   <project path="build/make" name="android_build" groups="pdk" remote="pd12" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -23,18 +25,18 @@
   <!-- Recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="pd12" />
 
-  <!-- Device sepolicy -->
+  <!-- Device -->
+  <project path="device/google/contexthub" name="android_device_google_contexthub" remote="pd12" />
   <project path="device/pixeldust/sepolicy" name="android_device_pixeldust_sepolicy" remote="pd12" />
-
-  <!-- Native --> 
-  <project name="android_bionic" path="bionic" remote="pd12" />
 
   <!-- External --> 
   <project path="external/scudo" name="android_external_scudo" remote="pd12" />
   <project path="external/selinux" name="android_external_selinux" remote="pd12" />
 
   <!-- System -->
+  <project path="system/bpf" name="android_system_bpf" remote="pd12" />
   <project path="system/core" name="android_system_core" remote="pd12" />
+  <project path="system/netd" name="android_system_netd" remote="pd12" />
   <project path="system/security" name="android_system_security" remote="pd12" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pd12" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pd12" />
@@ -42,6 +44,7 @@
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pd12" />
   <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pd12" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="pd12" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pd12" />
 
   <!-- Frameworks -->
@@ -55,6 +58,7 @@
   <project path="packages/apps/PixelDustSettings" name="android_packages_apps_PixelDustSettings" remote="pd12" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="pd12" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="pd12" />
+  <project path="packages/modules/adb" name="android_packages_modules_adb" remote="pd12" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pd12" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="pd12" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pd12" />
