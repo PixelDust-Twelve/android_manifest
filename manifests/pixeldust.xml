@@ -55,9 +55,11 @@
   <!-- Packages -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pd12" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pd12" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="pd12" />
   <project path="packages/apps/PixelDustSettings" name="android_packages_apps_PixelDustSettings" remote="pd12" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="pd12" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="pd12" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="pd12" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="pd12" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pd12" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="pd12" />
