@@ -33,6 +33,7 @@
   <!-- External --> 
   <project path="external/scudo" name="android_external_scudo" remote="pd12" />
   <project path="external/selinux" name="android_external_selinux" remote="pd12" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="pd12" />
 
   <!-- System -->
   <project path="system/bpf" name="android_system_bpf" remote="pd12" />
